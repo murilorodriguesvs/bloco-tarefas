@@ -79,13 +79,11 @@
 }
 
 .check-button, .delete-button {
-  background-color: #dbdbdbe7;
+  background-color: transparent;
   border: none;
   border-radius: 2px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  outline: none;
-  padding: 2px;
+  font-size: 25px;
 }
 
 .task.done .check-button {

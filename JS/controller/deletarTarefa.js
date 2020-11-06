@@ -2,7 +2,7 @@ function deletarTarefa(){
     const deletarBtn = document.createElement('button');
 
     deletarBtn.classList.add('delete-button');
-    deletarBtn.innerText = 'Excluir';
+    deletarBtn.innerHTML = '&#x1F5D1';
 
     deletarBtn.addEventListener('click', function(evento){
         const tarefaDeletar = evento.target;

@@ -2,7 +2,7 @@ function concluirTarefa(){
     const concluirBtn = document.createElement('button');// cria botão concluir
     
     concluirBtn.classList.add('check-button');
-    concluirBtn.innerText = 'Concluir'
+    concluirBtn.innerHTML = '&#x2714'
 
     concluirBtn.addEventListener('click', function(evento){
         const concluir = evento.target;//Seleciona alvo do evento
